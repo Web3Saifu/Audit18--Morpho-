@@ -294,6 +294,7 @@ contract Midnight is IMidnight {
         emit EventsLib.SetMarketContinuousFee(id, newContinuousFee);
     }
 
+
     function setDefaultContinuousFee(address loanToken, uint256 newContinuousFee) external {
         require(msg.sender == feeSetter, OnlyFeeSetter());
         require(newContinuousFee <= MAX_CONTINUOUS_FEE, ContinuousFeeTooHigh());
