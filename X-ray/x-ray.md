@@ -14,9 +14,10 @@
 - **Token model**: External ERC20 loan and collateral tokens; no protocol token or share token is minted.
 - **Admin model**: Four mutable roles: `roleSetter`, `feeSetter`, `feeClaimer`, and `tickSpacingSetter`; no upgrade proxy found.
 
-For a visual overview of the protocol's architecture, see the [architecture diagram](architecture.svg).
+ see the [architecture diagram](architecture.svg).
 
 ### Contracts in Scope
+
 
 | Subsystem | Key Contracts | nSLOC | Role |
 |-----------|--------------|------:|------|
