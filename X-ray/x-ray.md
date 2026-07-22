@@ -2,6 +2,7 @@
 
 > Midnight | 1755 nSLOC | 7538c438 (`HEAD`) | Foundry | 30/05/26
 
+
 ---
 
 ## 1. Protocol Overview
